@@ -20,5 +20,4 @@ public class Destructible : MonoBehaviour
             Instantiate(spawnableItems[randomIndex], transform.position, Quaternion.identity);
         }
     }
-
 }

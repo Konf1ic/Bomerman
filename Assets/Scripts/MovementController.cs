@@ -81,7 +81,7 @@ public class MovementController : MonoBehaviour
         spriteRendererRight.enabled = false;
         spriteRendererDeath.enabled = true;
 
-        Invoke(nameof(OnDeathSequenceEnded), 1.25f);
+        Invoke(nameof(OnDeathSequenceEnded), 1f);
     }
 
     private void OnDeathSequenceEnded()
@@ -89,5 +89,4 @@ public class MovementController : MonoBehaviour
         gameObject.SetActive(false);
         GameManager.Instance.CheckWinState();
     }
-
 }

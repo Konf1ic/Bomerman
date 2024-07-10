@@ -107,5 +107,4 @@ public class BombController : MonoBehaviour
             other.isTrigger = false;
         }
     }
-
 }
